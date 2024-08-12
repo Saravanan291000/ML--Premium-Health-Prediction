@@ -99,7 +99,7 @@ def handle_scaling(age, df):
 
     df['income_level'] = None
     df[scal_col] = scaler.transform(df[scal_col])
-    df.drop('income_level', axis= 'columns', inplace = True)
+    df.drop('income_level', axis='columns', inplace=True)
     return df
 
 # Function to make predictions based on input data
