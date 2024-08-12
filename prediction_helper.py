@@ -1,8 +1,6 @@
-import joblib
+
 import pandas as pd
-
-
-
+import joblib
 
 # Load pre-trained models and scalers
 model_rest = joblib.load("Artifacts/model_old.joblib")
